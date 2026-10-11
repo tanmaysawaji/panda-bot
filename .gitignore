@@ -1,0 +1,22 @@
+# Secrets — never committed. See .env.example for the shape.
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Data. Lives outside the repo on the Pi by design; this is belt and braces
+# so a stray local test can never commit a database or audio.
+*.db
+*.db-wal
+*.db-shm
+sounds/
+data/
+
+# OS
+Thumbs.db
+.DS_Store

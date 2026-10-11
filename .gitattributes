@@ -1,0 +1,8 @@
+# Code is written on Windows and copied to a Raspberry Pi. Keep LF in the working
+# copy so shell scripts don't reach the Pi with CRLF and fail as
+# "bad interpreter: /bin/bash^M".
+* text=auto eol=lf
+*.sh text eol=lf
+*.png binary
+*.opus binary
+*.mp3 binary
