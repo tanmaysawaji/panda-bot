@@ -20,3 +20,7 @@ data/
 # OS
 Thumbs.db
 .DS_Store
+
+# Deploy tooling — host-specific (SSH target, paths, usernames).
+deploy/
+scripts/
